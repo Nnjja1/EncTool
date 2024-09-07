@@ -53,7 +53,7 @@ def encbash():
     out_file=input('Output Filename: ')
     with open(".temp","r") as temp_f, open(out_file,'w') as out_f:
         encdata=temp_f.read()
-        out_f.write("# Eencrypted by EncTool\n#By Alienkrishn\n\n"+encdata)
+        out_f.write("# Eencrypted by EncTool\n#By Sujit kr. Basumatary\n\n"+encdata)
     os.remove(".temp")
     print("succesfuly encrypted "+in_file+" and saved as "+out_file)
 
@@ -99,7 +99,7 @@ def encpy():
             print("File allready Encrypted")
     fileout = open(As + '_en.py', 'w')
     fileout.write('#Encrypted by EncTool\n')
-    fileout.write('#Alienkrishn\n')
+    fileout.write('#Sujit kr. Basumatary\n')
     fileout.write('import marshal\n')
     fileout.write('exec(marshal.loads(' + repr(data) + '))')
     fileout.close()
