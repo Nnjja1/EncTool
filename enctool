@@ -34,9 +34,9 @@ and you can also encrypt python code in marshal
 just type enctool to run this script
 
 follow developer»»————>
-Instagram : 
-Youtube   : skr.jit
-Telegram  : AnonyXp6
+Instagram : No account
+Youtube   : @Sujitkr.
+Telegram  : @AnonyXp6
 \33[0m"""
 print(logo)
 
@@ -75,7 +75,7 @@ def decbash():
     os.remove(".temp1")
     with open(".temp2",'r') as temp_f2, open(out_file,'w') as out_f:
         filedata = temp_f2.read()
-        out_f.write("# Decrypted by EncTool\n#By Alienkrishn\n\n"+filedata)
+        out_f.write("# Decrypted by EncTool\n#By Sujit kr. Basumatary\n\n"+filedata)
     os.remove(".temp2")
     print("succesfuly decrypted "+in_file+" and saved as "+out_file)
 
